@@ -1,0 +1,5 @@
+﻿  ConsoleApplication1.cpp
+  StackClass.cpp
+  Generating Code...
+G:\School Classes\CIS243\Projects\Project 3\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(21,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  ConsoleApplication1.vcxproj -> G:\School Classes\CIS243\Projects\Project 3\ConsoleApplication1\Debug\ConsoleApplication1.exe
