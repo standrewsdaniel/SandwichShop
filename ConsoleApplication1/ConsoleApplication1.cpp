@@ -2,21 +2,12 @@
 //Author: Daniel St Andrews
 //Date 4/19/2021
 //Project SandWichShop
-//
-// Note: This project is not in a finished state. It is completed to the
-//			best of my ability within my time constraints. It was working 
-//			at one point but errors continued after a change 
-//			until I couldn't keep working.
-//
 //Purpose: This file contains the client side code for an array based stack. 
 //
-//Assumptions:
-//
-//
-//Exception Handling:
 //This class can throw the following 3 exceptions:
 // On an empty stack the program prints to the screen that nothing can be popped.
 // On a full stack the program prints to the screen that nothing can be pushed on.
+
 #pragma once
 #include "StackClass.h";
 #include "CircularQueueClass.h"
@@ -27,10 +18,12 @@ void PrintResults(int time, int weekDay, bool& printed, int served, ItemType cur
 //Pre: Needs required variables to contain a value
 //Post: Prints the results of the day to the output file
 //Purpose: Print the summary of the sales of the day to the file specified by dout
+
 void PlaceOrd(int temp, int& tempInt, ItemType& newOrd, int& ordNum, int& time, CircularQueueClass& newQueue);
 //Pre: Needs a queue calss instantiated and declared as well as remaining variables.
 //Post:	Queues an order and sub associated with it into the queue.
 //Purpose:	Place an order for a customer and queue them into the line.
+
 int main()
 {
 	ofstream dout;				// Output file keyword declaration
@@ -351,16 +344,19 @@ void PlaceOrd(int tempNum, int& tempInt, ItemType& newOrd, int& ordNum, int& tim
 	{
 		newOrd.key = ordNum;
 		newOrd.meats = rand() % 5;
+		
 		if (newOrd.meats == 0)
 		{
 			newOrd.meats = 1;
 		}
 		newOrd.veggies = rand() % 5;
+		
 		if (newOrd.veggies == 0)
 		{
 			newOrd.veggies = 1;
 		}
 		newOrd.dressings = rand() % 3;
+		
 		if (newOrd.dressings == 0)
 		{
 			newOrd.dressings = 1;
