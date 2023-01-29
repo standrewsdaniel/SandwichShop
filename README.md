@@ -47,12 +47,12 @@ At the end of the week, after printing Friday's statistics, you should also prin
 
 If your system works well, Stev will want to use it long-term, so it should be easy to edit various parameters such as the time to perform each action, the hours per day, maximum number of ingredients and so on.
 
-	Your objective is to implement (and test) the static stack and dynamic queue ADTs, and then construct a client simulation based on the rules above that tracks the store's progress from 8 AM Monday morning until 6 PM Friday evening.
+Your objective is to implement (and test) the static stack and dynamic queue ADTs, and then construct a client simulation based on the rules above that tracks the store's progress from 8 AM Monday morning until 6 PM Friday evening.
 	
 
 (continued) 
 Requirements
 
-	To begin, you will need to create a circular node-based queue class OR a static array-based stack class.  Each of these classes needs to have (at a minimum) the following methods: appropriate constructors and destructors, IsFull and IsEmpty, Clear, and appropriate insert and delete methods, and print and retrieve methods.  You can add other methods as you see fit, but they should be methods relevant to the stack and queue.  Feel free to create any functions you want to help the simulation, but they should be part of the simulation client, not the classes.
+To begin, you will need to create a circular node-based queue class OR a static array-based stack class.  Each of these classes needs to have (at a minimum) the following methods: appropriate constructors and destructors, IsFull and IsEmpty, Clear, and appropriate insert and delete methods, and print and retrieve methods.  You can add other methods as you see fit, but they should be methods relevant to the stack and queue.  Feel free to create any functions you want to help the simulation, but they should be part of the simulation client, not the classes.
 
-	In the event that something is added to the stack class when the stack is full, it should throw a StackFull exception.  In the event that Retrieve, Delete or Print is called on the Queue when it is empty, it should throw a QueueEmpty exception.  Both exceptions should be caught and handled by the client, not handled within the class.
+In the event that something is added to the stack class when the stack is full, it should throw a StackFull exception.  In the event that Retrieve, Delete or Print is called on the Queue when it is empty, it should throw a QueueEmpty exception.  Both exceptions should be caught and handled by the client, not handled within the class.
