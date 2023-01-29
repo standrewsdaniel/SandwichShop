@@ -36,7 +36,7 @@ You have been hired by Smiling Stev's Specialty Sandwich Shoppe to create a comp
 •	If a customer waits in the queue for 10 minutes or more without placing their order, upon reaching the front of the line they will yell at Steve, walk out of the store and leave a 1-star Yelp review.  
 •	Upon reaching 6 PM, no new customers will be allowed in, but the robots will need to continue work until all the customers have left.
 
-	Additionally, you should collect the following statistics to display at the end of each day once all the customers have left:
+Additionally, you should collect the following statistics to display at the end of each day once all the customers have left:
 1)	How many sandwiches were served
 2)	The average wait time for a customer
 3)	The day's average Yelp review score
